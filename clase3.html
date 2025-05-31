@@ -89,6 +89,7 @@
       font-size: var(--md);
       font-weight: bold;
       height: 50px;
+      margin: 0 auto; /* Centra el botón horizontalmente por defecto */
     }
     .login-button {
       margin-top: 14px;
@@ -98,7 +99,17 @@
       .logo {
         display: block;
       }
+      
+      .secondary-button {
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        left: 50%; /* Centra el botón horizontalmente */
+        transform: translateX(-50%); /* Ajusta la posición para un centrado perfecto */
+        margin-bottom: 24px;
+      }
     }
+
   </style>
 </head>
 <body>
